@@ -1,0 +1,61 @@
+@font-face {
+  font-family: Star Jedi;
+  src: url('fonts/starjedi-webfont.woff2') format('woff2'),
+       url('fonts/starjedi-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('fonts/roboto-regular-webfont.woff2') format('woff2'),
+       url('fonts/roboto-regular-webfont.woff') format('woff');
+}
+  body {
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    font-family: Roboto, serif !important;
+    overflow: hidden;
+  }
+
+  #intro {
+
+    position: absolute;
+    width: 1200px;
+    height: 70%;
+    margin: 0 auto;
+    top:3%;bottom: 0;right: 0;
+
+  }
+
+  #defaultCanvas0 {
+    border: solid 1px white;
+    position: absolute;
+    width: 1200px;
+    height: auto;
+    margin:  auto;
+    top:15%;left:0;bottom: 0;
+    z-index: 2;
+
+  }
+
+h1 {
+  font-size:140px;
+  font-family: Star Jedi;
+  position: absolute;
+  width: 2500px;
+  height: auto;
+  margin:  0 auto;
+  top:7%;left:10%;bottom: 0;
+  /*top:0;bottom: 0;right: 0;*/
+}
+
+#gameover {
+  position: absolute;
+  width: 1200px;
+  height: auto;
+  margin:  auto;
+  top:20%;left:0;bottom: 0;
+  z-index: 1;
+}
